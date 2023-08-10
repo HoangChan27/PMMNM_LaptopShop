@@ -1,0 +1,93 @@
+﻿@model IEnumerable<LaptopShop.Models.EF.Product>
+@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+
+@{
+    ViewData["Title"] = "Danh sách sản phẩm";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div>
+    <!-- breadcrumb start -->
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Trang chủ</a></li>
+            <li class="breadcrumb-item"><a asp-controller="Product" asp-action="Index">Quản lý danh mục</a></li>
+            <li class="breadcrumb-item active" aria-current="page">@ViewData["Title"]</li>
+        </ol>
+    </nav>
+    <!-- breadcrumb end-->
+
+    <h3 class="text-center">@ViewData["Title"]</h3>
+
+    @Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new {page = page}),
+    new X.PagedList.Web.Common.PagedListRenderOptions {
+    LiElementClasses = new string[] {"page-item"},
+    PageClasses = new string[] {"page-link"}}
+    )
+
+    <table class="table table-responsive table-bordered">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Image)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CPU)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.RAM)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Storage)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Price)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Quantity)
+                </th>
+                <th>
+                    <a asp-action="Create" class="btn btn-success"><i class="fa-sharp fa-solid fa-plus"></i></a>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <img src="@item.Image" style="height:120px;width:200px;"/>
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CPU)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RAM)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Storage)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Quantity)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.ProductId" class="btn btn-warning"><i class="fa-regular fa-pen-to-square"></i></a>
+                        <a asp-action="Details" asp-route-id="@item.ProductId" class="btn btn-secondary"><i class="fa-sharp fa-solid fa-circle-info"></i></a>
+                        <a asp-action="Delete" asp-route-id="@item.ProductId" class="btn btn-danger"><i class="fa-solid fa-trash"></i></a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

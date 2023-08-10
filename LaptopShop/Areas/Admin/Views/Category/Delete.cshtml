@@ -1,0 +1,57 @@
+﻿@model LaptopShop.Models.EF.Category
+
+@{
+    ViewData["Title"] = "Xác nhận xoá danh mục";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<!-- breadcrumb start -->
+<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Trang chủ</a></li>
+        <li class="breadcrumb-item"><a asp-controller="Category" asp-action="Index">Quản lý danh mục</a></li>
+        <li class="breadcrumb-item active" aria-current="page">@ViewData["Title"]</li>
+    </ol>
+</nav>
+<!-- breadcrumb end-->
+
+<h4>@ViewData["Title"]</h4>
+<hr />
+<div>
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CategoryName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CategoryName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Active)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Active)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="CategoryId" />
+        <div class="btn-group" role="group" >
+            <button type="submit" class="btn btn-danger">Xoá</button>
+            <a class="btn btn-secondary" asp-action="Index">Về danh sách</a>
+        </div>
+    </form>
+
+    @if (ViewBag.error != null)
+    {
+        <br />
+        <div class="alert alert-danger" role="alert">
+            @ViewBag.error
+        </div>
+    }
+</div>

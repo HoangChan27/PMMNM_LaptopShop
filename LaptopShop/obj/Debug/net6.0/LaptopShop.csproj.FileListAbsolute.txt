@@ -551,3 +551,7 @@ D:\HaUI\Semester7\PhanMemMaNguonMo\PMMNM_LaptopShop\LaptopShop\bin\Debug\net6.0\
 D:\HaUI\Semester7\PhanMemMaNguonMo\PMMNM_LaptopShop\LaptopShop\obj\Debug\net6.0\LaptopShop.csproj.AssemblyReference.cache
 D:\HaUI\Semester7\PhanMemMaNguonMo\PMMNM_LaptopShop\LaptopShop\obj\Debug\net6.0\LaptopShop.MvcApplicationPartsAssemblyInfo.cs
 D:\HaUI\Semester7\PhanMemMaNguonMo\PMMNM_LaptopShop\LaptopShop\obj\Debug\net6.0\LaptopShop.csproj.CopyComplete
+D:\HaUI\Semester7\PhanMemMaNguonMo\PMMNM_LaptopShop\LaptopShop\bin\Debug\net6.0\JetBrains.Annotations.dll
+D:\HaUI\Semester7\PhanMemMaNguonMo\PMMNM_LaptopShop\LaptopShop\bin\Debug\net6.0\X.PagedList.dll
+D:\HaUI\Semester7\PhanMemMaNguonMo\PMMNM_LaptopShop\LaptopShop\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll
+D:\HaUI\Semester7\PhanMemMaNguonMo\PMMNM_LaptopShop\LaptopShop\obj\Debug\net6.0\scopedcss\Areas\Admin\Views\Shared\_AdminLayout.cshtml.rz.scp.css

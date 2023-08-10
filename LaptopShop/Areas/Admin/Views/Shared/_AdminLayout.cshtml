@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["title"] = "Trang chủ quản trị viên";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>@ViewData["title"]</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="@ViewData["title"]">
+	<meta name="author" content="Trần Huy Hoàng">
+	<link rel="shortcut icon" href="favicon.ico">
+	<script defer src="~/AdminContent/plugins/fontawesome/js/all.min.js"></script>
+	<link id="theme-style" rel="stylesheet" href="~/AdminContent/css/portal.css">
+</head>
+
+<body class="app">
+	<header class="app-header fixed-top">
+		@await Html.PartialAsync("_AdminHeaderPartial")
+		@await Html.PartialAsync("_AdminSideBarPartial")
+	</header><!--//app-header-->
+
+	<div class="app-wrapper">
+		<div class="app-content pt-3 p-md-3 p-lg-4">
+			@RenderBody()
+		</div>
+		@await Html.PartialAsync("_AdminFooterPartial")
+	</div><!--//app-wrapper-->
+	
+	<!-- Javascript -->
+	<script src="~/AdminContent/plugins/popper.min.js"></script>
+	<script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+	<!-- Page Specific JS -->
+	<script src="~/AdminContent/js/app.js"></script>
+
+	@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+
+
+
+
