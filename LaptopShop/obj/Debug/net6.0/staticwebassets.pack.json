@@ -8977,6 +8977,354 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\animated.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\animated.less"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\core.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\core.less"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\icons.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\icons.less"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\larger.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\larger.less"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\list.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\list.less"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\mixins.less"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\path.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\path.less"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\stacked.less"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\variables.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\variables.less"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_core.scss"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_list.scss"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_path.scss"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\montserrat\\Montserrat-Black.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-Black.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\montserrat\\Montserrat-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-BlackItalic.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\montserrat\\Montserrat-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-Bold.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\montserrat\\Montserrat-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-BoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\montserrat\\Montserrat-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-ExtraBold.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\montserrat\\Montserrat-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\montserrat\\Montserrat-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-ExtraLight.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\montserrat\\Montserrat-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\montserrat\\Montserrat-Italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-Italic.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\montserrat\\Montserrat-Light.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-Light.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\montserrat\\Montserrat-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-LightItalic.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\montserrat\\Montserrat-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-Medium.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\montserrat\\Montserrat-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-MediumItalic.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\montserrat\\Montserrat-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-Regular.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\montserrat\\Montserrat-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-SemiBold.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\montserrat\\Montserrat-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\montserrat\\Montserrat-Thin.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-Thin.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\montserrat\\Montserrat-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\Montserrat-ThinItalic.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\montserrat\\OFL.txt",
+      "PackagePath": "staticwebassets\\fonts\\montserrat\\OFL.txt"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\poppins\\Poppins-Black.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-Black.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\poppins\\Poppins-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-BlackItalic.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\poppins\\Poppins-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-Bold.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\poppins\\Poppins-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-BoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\poppins\\Poppins-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-ExtraBold.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\poppins\\Poppins-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\poppins\\Poppins-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-ExtraLight.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\poppins\\Poppins-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\poppins\\Poppins-Italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-Italic.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\poppins\\Poppins-Light.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-Light.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\poppins\\Poppins-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-LightItalic.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\poppins\\Poppins-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-Medium.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\poppins\\Poppins-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-MediumItalic.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\poppins\\Poppins-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-Regular.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\poppins\\Poppins-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-SemiBold.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\poppins\\Poppins-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\poppins\\Poppins-Thin.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-Thin.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\fonts\\poppins\\Poppins-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-ThinItalic.ttf"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\img\\avatars\\admin.png",
+      "PackagePath": "staticwebassets\\img\\avatars\\admin.png"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\img\\avatars\\user.jpg",
+      "PackagePath": "staticwebassets\\img\\avatars\\user.jpg"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\img\\icons\\favicon.ico",
+      "PackagePath": "staticwebassets\\img\\icons\\favicon.ico"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\img\\img-01.png",
+      "PackagePath": "staticwebassets\\img\\img-01.png"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\img\\laptops\\Acer.jpg",
+      "PackagePath": "staticwebassets\\img\\laptops\\Acer.jpg"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\img\\laptops\\Apple.jpg",
+      "PackagePath": "staticwebassets\\img\\laptops\\Apple.jpg"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\img\\laptops\\Asus.jpg",
+      "PackagePath": "staticwebassets\\img\\laptops\\Asus.jpg"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\img\\laptops\\Dell.jpg",
+      "PackagePath": "staticwebassets\\img\\laptops\\Dell.jpg"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\img\\laptops\\HP.jpg",
+      "PackagePath": "staticwebassets\\img\\laptops\\HP.jpg"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\img\\laptops\\Lenovo.jpg",
+      "PackagePath": "staticwebassets\\img\\laptops\\Lenovo.jpg"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\img\\laptops\\MSI.jpg",
+      "PackagePath": "staticwebassets\\img\\laptops\\MSI.jpg"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\img\\laptops\\Microsoft.jpg",
+      "PackagePath": "staticwebassets\\img\\laptops\\Microsoft.jpg"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
       "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
@@ -9207,6 +9555,110 @@
     {
       "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\vendor\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\vendor\\animate\\animate.css"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\vendor\\bootstrap\\js\\popper.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\popper.js"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\vendor\\bootstrap\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\vendor\\bootstrap\\js\\tooltip.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\tooltip.js"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\vendor\\css-hamburgers\\hamburgers.css",
+      "PackagePath": "staticwebassets\\vendor\\css-hamburgers\\hamburgers.css"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\vendor\\css-hamburgers\\hamburgers.min.css",
+      "PackagePath": "staticwebassets\\vendor\\css-hamburgers\\hamburgers.min.css"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\vendor\\jquery\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\vendor\\select2\\select2.css",
+      "PackagePath": "staticwebassets\\vendor\\select2\\select2.css"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\vendor\\select2\\select2.js",
+      "PackagePath": "staticwebassets\\vendor\\select2\\select2.js"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\vendor\\select2\\select2.min.css",
+      "PackagePath": "staticwebassets\\vendor\\select2\\select2.min.css"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\vendor\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\vendor\\select2\\select2.min.js"
+    },
+    {
+      "Id": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\wwwroot\\vendor\\tilt\\tilt.jquery.min.js",
+      "PackagePath": "staticwebassets\\vendor\\tilt\\tilt.jquery.min.js"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.LaptopShop.Microsoft.AspNetCore.StaticWebAssets.props",
