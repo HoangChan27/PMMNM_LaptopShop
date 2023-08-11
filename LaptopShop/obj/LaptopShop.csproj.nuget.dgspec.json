@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\Desktop\\PMMNM_LaptopShop\\LaptopShop\\LaptopShop.csproj": {}
+    "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\LaptopShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\Desktop\\PMMNM_LaptopShop\\LaptopShop\\LaptopShop.csproj": {
+    "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\LaptopShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Desktop\\PMMNM_LaptopShop\\LaptopShop\\LaptopShop.csproj",
+        "projectUniqueName": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\LaptopShop.csproj",
         "projectName": "LaptopShop",
-        "projectPath": "C:\\Users\\admin\\Desktop\\PMMNM_LaptopShop\\LaptopShop\\LaptopShop.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Desktop\\PMMNM_LaptopShop\\LaptopShop\\obj\\",
+        "projectPath": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\LaptopShop.csproj",
+        "packagesPath": "C:\\Users\\huyho\\.nuget\\packages\\",
+        "outputPath": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\huyho\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +25,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -95,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

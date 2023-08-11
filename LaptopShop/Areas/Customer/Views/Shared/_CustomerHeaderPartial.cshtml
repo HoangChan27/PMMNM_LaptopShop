@@ -1,13 +1,11 @@
-﻿
-<header>
+﻿<header>
 	<!-- TOP HEADER -->
 	<div id="top-header">
 		<div class="container">
 			<ul class="header-links pull-right">
-				
 				@if (!string.IsNullOrEmpty(User.Identity.Name))
 				{
-					<li><a href="/Identity/UserAuthentication/ChangePassword">Đổi mật khẩu</a></li>
+					<li style="color: white; font-weight: 500;">Xin chào @User.Identity.Name!</li>
 					<li><a href="/Identity/UserAuthentication/Logout">Đăng xuất</a></li>
 				}
 				else
@@ -38,17 +36,15 @@
 				<div class="col-md-6">
 					<div class="header-search">
 						<form>
-							<input class="input" placeholder="Tìm kiếm">
+							<input class="input" placeholder="Nhập tên hoặc thương hiệu">
 							<button class="search-btn">Tìm kiếm</button>
 						</form>
 					</div>
 				</div>
 				<!-- /SEARCH BAR -->
-				
 				<!-- ACCOUNT -->
 				<div class="col-md-3 clearfix">
 					<div class="header-ctn">
-						<!-- Cart -->
 						<div>
 							<a  asp-action="Index" asp-controller="Cart">
 								<i class="fa fa-shopping-cart"></i>

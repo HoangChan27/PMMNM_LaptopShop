@@ -1113,3 +1113,4 @@ C:\Users\admin\Desktop\PMMNM_LaptopShop\LaptopShop\obj\Debug\net6.0\LaptopShop.c
 C:\Users\admin\Desktop\PMMNM_LaptopShop\LaptopShop\obj\Debug\net6.0\LaptopShop.genruntimeconfig.cache
 C:\Users\admin\Desktop\PMMNM_LaptopShop\LaptopShop\obj\Debug\net6.0\ref\LaptopShop.dll
 C:\Users\admin\Desktop\PMMNM_LaptopShop\LaptopShop\obj\Debug\net6.0\scopedcss\Areas\Customer\Views\Shared\_CustomerLayout.cshtml.rz.scp.css
+D:\HaUI\Semester7\PhanMemMaNguonMo\PMMNM_LaptopShop\LaptopShop\obj\Debug\net6.0\scopedcss\Areas\Customer\Views\Shared\_CustomerLayout.cshtml.rz.scp.css
