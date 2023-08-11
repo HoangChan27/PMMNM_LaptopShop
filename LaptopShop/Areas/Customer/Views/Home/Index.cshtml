@@ -1,0 +1,749 @@
+﻿@using LaptopShop.Models.EF;
+@using LaptopShop.Models.ViewModels;
+@model List<ProductDto>
+
+<!-- SECTION -->
+<div class="section">
+	<!-- container -->
+	<div class="container">
+		<!-- row -->
+		<div class="row">
+			<!-- shop -->
+			<div class="col-md-4 col-xs-6">
+				<div class="shop">
+					<div class="shop-img">
+						<img src="~/CustomerContent/img/shop01.png" alt="">
+					</div>
+					<div class="shop-body">
+						<h3>Bộ sưu tập<br>Laptop</h3>
+						<a href="#" class="cta-btn">Mua ngay <i class="fa fa-arrow-circle-right"></i></a>
+					</div>
+				</div>
+			</div>
+			<!-- /shop -->
+			<!-- shop -->
+			<div class="col-md-4 col-xs-6">
+				<div class="shop">
+					<div class="shop-img">
+						<img src="~/CustomerContent/img/shop03.png" alt="">
+					</div>
+					<div class="shop-body">
+						<h3>Bộ sưu tập<br>Phụ kiện</h3>
+						<a href="#" class="cta-btn">Mua ngay <i class="fa fa-arrow-circle-right"></i></a>
+					</div>
+				</div>
+			</div>
+			
+			<!-- /shop -->
+			<!-- shop -->
+			<div class="col-md-4 col-xs-6">
+				<div class="shop">
+					<div class="shop-img">
+						<img src="~/CustomerContent/img/new-pictures/keyboard.jpg" alt="">
+					</div>
+					<div class="shop-body">
+						<h3>Bộ sưu tập<br>Cameras</h3>
+						<a href="#" class="cta-btn">Mua ngay <i class="fa fa-arrow-circle-right"></i></a>
+					</div>
+				</div>
+			</div>
+			<!-- /shop -->
+		</div>
+		<!-- /row -->
+	</div>
+	<!-- /container -->
+</div>
+<!-- /SECTION -->
+<!-- SECTION -->
+<div class="section">
+	<!-- container -->
+	<div class="container">
+		<!-- row -->
+		<div class="row">
+
+			<!-- section title -->
+			<div class="col-md-12">
+				<div class="section-title">
+					<h3 class="title">Sản phẩm mới</h3>
+					<div class="section-nav">
+						<ul class="section-tab-nav tab-nav">
+							<li class="active"><a data-toggle="tab" href="#tab1">Laptops</a></li>
+							<li><a data-toggle="tab" href="#tab1">Laptop Dell</a></li>
+							<li><a data-toggle="tab" href="#tab1">Laptop Acer</a></li>
+							<li><a data-toggle="tab" href="#tab1">Laptop HP</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- /section title -->
+			<!-- Products tab & slick -->
+			<div class="col-md-12">
+				<div class="row">
+					<div class="products-tabs">
+						<!-- tab -->
+						<div id="tab1" class="tab-pane active">
+							<div class="products-slick" data-nav="#slick-nav-1">
+								@foreach(var item in Model)
+								{
+									
+								<!-- product -->
+								<div class="product">
+									<div class="product-img">
+											@*<img src="~/CustomerContent/img/new-pictures/laptop1.jpg" alt="">*@
+											<img src="@Url.Content(item.Image)" alt="" class="card-img-top" >
+										<div class="product-label">
+											<span class="sale">-30%</span>
+											<span class="new">NEW</span>
+										</div>
+									</div>
+									<div class="product-body">
+										<p class="product-category">@item.CategoryName</p>
+										<h3 class="product-name"><a href="/Customer/Product/Detail/@item.ProductId">@item.Name</a></h3>
+											<h4 class="product-price">@item.Price.ToString("0,0")đ<del class="product-old-price">20.600.000 đ</del></h4>
+										<div class="product-rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+										<div class="product-btns">
+											
+											
+											
+										</div>
+									</div>
+									<div class="add-to-cart">
+											<button class="add-to-cart-btn">
+												<i class="fa fa-shopping-cart"></i>
+											<a class="btn" asp-controller="Cart" asp-action="Add" asp-route-id="@item.ProductId">+ Giỏ hàng</a>
+										 </button>
+									</div>
+								</div>
+								<!-- /product -->
+								}
+
+								<!-- product -->
+								<div class="product">
+									<div class="product-img">
+										<img src="~/CustomerContent/img/new-pictures/laptop3.jpg" alt="">
+										<div class="product-label">
+											<span class="new">NEW</span>
+										</div>
+									</div>
+									<div class="product-body">
+										<p class="product-category">Category</p>
+										<h3 class="product-name"><a href="#">Acer Predator Helios 300 PH315-52-78HH</a></h3>
+										<h4 class="product-price">44.600.000 đ <del class="product-old-price">46.600.000 đ</del></h4>
+										<div class="product-rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star-o"></i>
+										</div>
+									</div>
+									<div class="add-to-cart">
+										<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> + Giỏ hàng</button>
+									</div>
+								</div>
+								<!-- /product -->
+								
+
+								<!-- product -->
+								<div class="product">
+									<div class="product-img">
+										<img src="~/CustomerContent/img/new-pictures/laptop2.jpg" alt="">
+										<div class="product-label">
+											<span class="sale">-30%</span>
+										</div>
+									</div>
+									<div class="product-body">
+										<p class="product-category">Category</p>
+										<h3 class="product-name"><a href="#">Acer Swift 7 SF714-52T - 7134 Laptop – Full Black</a></h3>
+										<h4 class="product-price">49.600.000 đ <del class="product-old-price">52.600.000 đ</del></h4>
+										<div class="product-rating">
+										</div>
+									</div>
+									<div class="add-to-cart">
+										<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> + Giỏ hàng</button>
+									</div>
+								</div>
+								<!-- /product -->
+								<!-- product -->
+								<div class="product">
+									<div class="product-img">
+										<img src="~/CustomerContent/img/new-pictures/laptop5.jpg" alt="">
+									</div>
+									<div class="product-body">
+										<p class="product-category">Category</p>
+										<h3 class="product-name"><a href="#">ASUS ROG Strix SCAR III G531GN-VAZ160T</a></h3>
+										<h4 class="product-price">34.600.000 đ <del class="product-old-price">36.600.000 đ</del></h4>
+										<div class="product-rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+									</div>
+									<div class="add-to-cart">
+										<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> + Giỏ hàng</button>
+									</div>
+								</div>
+								<!-- /product -->
+								<!-- product -->
+								<div class="product">
+									<div class="product-img">
+										<img src="~/CustomerContent/img/new-pictures/laptop7.jpg" alt="">
+									</div>
+									<div class="product-body">
+										<p class="product-category">Category</p>
+										<h3 class="product-name"><a href="#">HP Omen 15-dh0172TX Gaming Laptop</a></h3>
+										<h4 class="product-price">49.600.000 đ <del class="product-old-price">53.600.000 đ</del></h4>
+										<div class="product-rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+									</div>
+									<div class="add-to-cart">
+										<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> + Giỏ hàng</button>
+									</div>
+								</div>
+								<!-- /product -->
+							</div>
+							<div id="slick-nav-1" class="products-slick-nav"></div>
+						</div>
+						<!-- /tab -->
+					</div>
+				</div>
+			</div>
+			<!-- Products tab & slick -->
+		</div>
+		<!-- /row -->
+	</div>
+	<!-- /container -->
+</div>
+<!-- /SECTION -->
+<!-- HOT DEAL SECTION -->
+<div id="hot-deal" class="section">
+	<!-- container -->
+	<div class="container">
+		<!-- row -->
+		<div class="row">
+			<div class="col-md-12">
+				<div class="hot-deal">
+					<ul class="hot-deal-countdown">
+						<li>
+							<div>
+								<h3>02</h3>
+								<span>Ngày</span>
+							</div>
+						</li>
+						<li>
+							<div>
+								<h3>10</h3>
+								<span>Giờ</span>
+							</div>
+						</li>
+						<li>
+							<div>
+								<h3>34</h3>
+								<span>Phút</span>
+							</div>
+						</li>
+						<li>
+							<div>
+								<h3>60</h3>
+								<span>Giây</span>
+							</div>
+						</li>
+					</ul>
+					<h2 class="text-uppercase">Khuyến mãi hấp dẫn tuần này</h2>
+					<p>Bộ sưu tập mới giảm tới 50% </p>
+					<a class="primary-btn cta-btn" href="#">Mua ngay</a>
+				</div>
+			</div>
+		</div>
+		<!-- /row -->
+	</div>
+	<!-- /container -->
+</div>
+<!-- /HOT DEAL SECTION -->
+<!-- SECTION -->
+<div class="section">
+	<!-- container -->
+	<div class="container">
+		<!-- row -->
+		<div class="row">
+
+			<!-- section title -->
+			<div class="col-md-12">
+				<div class="section-title">
+					<h3 class="title">Bán chạy nhất</h3>
+					<div class="section-nav">
+						<ul class="section-tab-nav tab-nav">
+							<li class="active"><a data-toggle="tab" href="#tab2">Laptops</a></li>
+							<li><a data-toggle="tab" href="#tab2">Laptop Dell</a></li>
+							<li><a data-toggle="tab" href="#tab2">Laptop HP</a></li>
+							<li><a data-toggle="tab" href="#tab2">Phụ kiện</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- /section title -->
+			<!-- Products tab & slick -->
+			<div class="col-md-12">
+				<div class="row">
+					<div class="products-tabs">
+						<!-- tab -->
+						<div id="tab2" class="tab-pane fade in active">
+							<div class="products-slick" data-nav="#slick-nav-2">
+								<!-- product -->
+								<div class="product">
+									<div class="product-img">
+										<img src="~/CustomerContent/img/product06.png" alt="">
+										<div class="product-label">
+											<span class="sale">-30%</span>
+											<span class="new">NEW</span>
+										</div>
+									</div>
+									<div class="product-body">
+										<p class="product-category">Category</p>
+										<h3 class="product-name"><a href="#">LG Gram 14ZD90N-V.AX55A5 Laptop</a></h3>
+										<h4 class="product-price">29.600.000 đ <del class="product-old-price">30.990.000 đ</del></h4>
+										<div class="product-rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+									</div>
+									<div class="add-to-cart">
+										<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> + Giỏ hàng</button>
+									</div>
+								</div>
+								<!-- /product -->
+								<!-- product -->
+								<div class="product">
+									<div class="product-img">
+										<img src="~/CustomerContent/img/new-pictures/laptop10.jpg" alt="">
+										<div class="product-label">
+											<span class="new">NEW</span>
+										</div>
+									</div>
+									<div class="product-body">
+										<p class="product-category">Category</p>
+										<h3 class="product-name"><a href="#">LG Gram 17Z90N-V.AH75A5 Laptop – Silver</a></h3>
+										<h4 class="product-price">39.600.000 đ <del class="product-old-price">40.600.000 đ</del></h4>
+										<div class="product-rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star-o"></i>
+										</div>
+									</div>
+									<div class="add-to-cart">
+										<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> + Giỏ hàng</button>
+									</div>
+								</div>
+								<!-- /product -->
+								<!-- product -->
+								<div class="product">
+									<div class="product-img">
+										<img src="~/CustomerContent/img/product08.png" alt="">
+										<div class="product-label">
+											<span class="sale">-30%</span>
+										</div>
+									</div>
+									<div class="product-body">
+										<p class="product-category">Category</p>
+										<h3 class="product-name"><a href="#">ASUS ProArt StudioBook Pro 17 W700G1T-AV046T</a></h3>
+										<h4 class="product-price">45.600.000 đ <del class="product-old-price">46.600.000 đ</del></h4>
+										<div class="product-rating">
+										</div>
+									</div>
+									<div class="add-to-cart">
+										<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> + Giỏ hàng</button>
+									</div>
+								</div>
+								<!-- /product -->
+								<!-- product -->
+								<div class="product">
+									<div class="product-img">
+										<img src="~/CustomerContent/img/new-pictures/laptop11.jpg" alt="">
+									</div>
+									<div class="product-body">
+										<p class="product-category">Category</p>
+										<h3 class="product-name"><a href="#">ASUS ROG Strix SCAR III G531GN-VAZ160T</a></h3>
+										<h4 class="product-price">42.600.000 đ <del class="product-old-price">44.600.000 đ</del></h4>
+										<div class="product-rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+									</div>
+									<div class="add-to-cart">
+										<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> + Giỏ hàng</button>
+									</div>
+								</div>
+								<!-- /product -->
+								<!-- product -->
+								<div class="product">
+									<div class="product-img">
+										<img src="~/CustomerContent/img/product01.png" alt="">
+									</div>
+									<div class="product-body">
+										<p class="product-category">Category</p>
+										<h3 class="product-name"><a href="#">ASUS TUF Gaming FX705DT-H7138T</a></h3>
+										<h4 class="product-price">40.600.000 đ <del class="product-old-price">42.600.000 đ</del></h4>
+										<div class="product-rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+									</div>
+									<div class="add-to-cart">
+										<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> + Giỏ hàng</button>
+									</div>
+								</div>
+								<!-- /product -->
+							</div>
+							<div id="slick-nav-2" class="products-slick-nav"></div>
+						</div>
+						<!-- /tab -->
+					</div>
+				</div>
+			</div>
+			<!-- /Products tab & slick -->
+		</div>
+		<!-- /row -->
+	</div>
+	<!-- /container -->
+</div>
+<!-- /SECTION -->
+<!-- SECTION -->
+<div class="section">
+	<!-- container -->
+	<div class="container">
+		<!-- row -->
+		<div class="row">
+			<div class="col-md-4 col-xs-6">
+				<div class="section-title">
+					<h4 class="title">Bán chạy nhất</h4>
+					<div class="section-nav">
+						<div id="slick-nav-3" class="products-slick-nav"></div>
+					</div>
+				</div>
+
+				<div class="products-widget-slick" data-nav="#slick-nav-3">
+					<div>
+						<!-- product widget -->
+						<div class="product-widget">
+							<div class="product-img">
+								<img src="~/CustomerContent/img/new-pictures/laptop13.jpg" alt="">
+							</div>
+							<div class="product-body">
+								<p class="product-category">Category</p>
+								<h3 class="product-name"><a href="#">Acer predator helios 300 gaming laptop</a></h3>
+								<h4 class="product-price">49.990.000 đ  <del class="product-old-price">52.990.000 đ</del></h4>
+							</div>
+						</div>
+						<!-- /product widget -->
+						<!-- product widget -->
+						<div class="product-widget">
+							<div class="product-img">
+								<img src="~/CustomerContent/img/product08.png" alt="">
+							</div>
+							<div class="product-body">
+								<p class="product-category">Category</p>
+								<h3 class="product-name"><a href="#">ASUS ProArt StudioBook Pro 17 W700G1T-AV046T</a></h3>
+								<h4 class="product-price">45.600.000 đ <del class="product-old-price">46.600.000 đ</del></h4>
+							</div>
+						</div>
+						<!-- /product widget -->
+						<!-- product widget -->
+						<div class="product-widget">
+							<div class="product-img">
+								<img src="~/CustomerContent/img/new-pictures/laptop14.jpg" alt="">
+							</div>
+							<div class="product-body">
+								<p class="product-category">Category</p>
+								<h3 class="product-name"><a href="#">ASUS ROG Strix SCAR III G531GN-VAZ160T</a></h3>
+								<h4 class="product-price">42.600.000 đ <del class="product-old-price">44.600.000 đ</del></h4>
+							</div>
+						</div>
+						<!-- product widget -->
+					</div>
+
+					<div>
+						<!-- product widget -->
+						<div class="product-widget">
+							<div class="product-img">
+								<img src="~/CustomerContent/img/product01.png" alt="">
+							</div>
+							<div class="product-body">
+								<p class="product-category">Category</p>
+								<h3 class="product-name"><a href="#">ASUS TUF Gaming FX705DT-H7138T</a></h3>
+								<h4 class="product-price">40.600.000 đ <del class="product-old-price">42.600.000 đ</del></h4>
+							</div>
+						</div>
+						<!-- /product widget -->
+						<!-- product widget -->
+						<div class="product-widget">
+							<div class="product-img">
+								<img src="~/CustomerContent/img/product02.png" alt="">
+							</div>
+							<div class="product-body">
+								<p class="product-category">Category</p>
+								<h3 class="product-name"><a href="#">Tai nghe gaming Prolink iCore G11 có mic</a></h3>
+								<h4 class="product-price">531.000 ₫ <del class="product-old-price">561.000 ₫</del></h4>
+							</div>
+						</div>
+						<!-- /product widget -->
+						<!-- product widget -->
+						<div class="product-widget">
+							<div class="product-img">
+								<img src="~/CustomerContent/img/product03.png" alt="">
+							</div>
+							<div class="product-body">
+								<p class="product-category">Category</p>
+								<h3 class="product-name"><a href="#">Laptop Asus TUF Gaming FA507RC AMD Ryzen 7</a></h3>
+								<h4 class="product-price">22.900.000 đ <del class="product-old-price">23.990.000 đ</del></h4>
+							</div>
+						</div>
+						<!-- product widget -->
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-xs-6">
+				<div class="section-title">
+					<h4 class="title">Bán chạy nhất</h4>
+					<div class="section-nav">
+						<div id="slick-nav-4" class="products-slick-nav"></div>
+					</div>
+				</div>
+
+				<div class="products-widget-slick" data-nav="#slick-nav-4">
+					<div>
+						<!-- product widget -->
+						<div class="product-widget">
+							<div class="product-img">
+								<img src="~/CustomerContent/img/new-pictures/phukien1.jpg" alt="">
+							</div>
+							<div class="product-body">
+								<p class="product-category">Category</p>
+								<h3 class="product-name"><a href="#">Đế Tản Nhiệt Havit F2072</a></h3>
+								<h4 class="product-price">300.000 đ <del class="product-old-price">400.000 đ</del></h4>
+							</div>
+						</div>
+						<!-- /product widget -->
+						<!-- product widget -->
+						<div class="product-widget">
+							<div class="product-img">
+								<img src="~/CustomerContent/img/product05.png" alt="">
+							</div>
+							<div class="product-body">
+								<p class="product-category">Category</p>
+								<h3 class="product-name"><a href="#">Tai nghe gaming Rapoo VH710 có mic</a></h3>
+								<h4 class="product-price">790.000 ₫ <del class="product-old-price">890.000 ₫</del></h4>
+							</div>
+						</div>
+						<!-- /product widget -->
+						<!-- product widget -->
+						<div class="product-widget">
+							<div class="product-img">
+								<img src="~/CustomerContent/img/product06.png" alt="">
+							</div>
+							<div class="product-body">
+								<p class="product-category">Category</p>
+								<h3 class="product-name"><a href="#">Laptop MSI Gaming GF63 Thin 11UD 473VN</a></h3>
+								<h4 class="product-price">17.890.000 đ <del class="product-old-price">19.400.000 đ</del></h4>
+							</div>
+						</div>
+						<!-- product widget -->
+					</div>
+
+					<div>
+						<!-- product widget -->
+						<div class="product-widget">
+							<div class="product-img">
+								<img src="~/CustomerContent/img/new-pictures/laptop17.jpg" alt="">
+							</div>
+							<div class="product-body">
+								<p class="product-category">Category</p>
+								<h3 class="product-name"><a href="#">Laptop Lenovo Thinkpad T14S i5</a></h3>
+								<h4 class="product-price">17.090.000 đ <del class="product-old-price">18.900.000 đ</del></h4>
+							</div>
+						</div>
+						<!-- /product widget -->
+						<!-- product widget -->
+						<div class="product-widget">
+							<div class="product-img">
+								<img src="~/CustomerContent/img/product08.png" alt="">
+							</div>
+							<div class="product-body">
+								<p class="product-category">Category</p>
+								<h3 class="product-name"><a href="#">Laptop Lenovo Ideapad Gaming 3 15IHU6 82K101B5VN</a></h3>
+								<h4 class="product-price">18.980.000 đ <del class="product-old-price">22.990.000 đ</del></h4>
+							</div>
+						</div>
+						<!-- /product widget -->
+						<!-- product widget -->
+						<div class="product-widget">
+							<div class="product-img">
+								<img src="~/CustomerContent/img/new-pictures/laptop18.jpg" alt="">
+							</div>
+							<div class="product-body">
+								<p class="product-category">Category</p>
+								<h3 class="product-name"><a href="#">Laptop gaming MSI GF63 Thin 11SC 664VN</a></h3>
+								<h4 class="product-price">16.400.000 đ <del class="product-old-price">18.500.000 đ</del></h4>
+							</div>
+						</div>
+						<!-- product widget -->
+					</div>
+				</div>
+			</div>
+
+			<div class="clearfix visible-sm visible-xs"></div>
+
+			<div class="col-md-4 col-xs-6">
+				<div class="section-title">
+					<h4 class="title">Bán chạy nhất</h4>
+					<div class="section-nav">
+						<div id="slick-nav-5" class="products-slick-nav"></div>
+					</div>
+				</div>
+
+				<div class="products-widget-slick" data-nav="#slick-nav-5">
+					<div>
+						<!-- product widget -->
+						<div class="product-widget">
+							<div class="product-img">
+								<img src="~/CustomerContent/img/new-pictures/laptop19.jpg" alt="">
+							</div>
+							<div class="product-body">
+								<p class="product-category">Category</p>
+								<h3 class="product-name"><a href="#">Laptop MSI Modern 14 B11MOU-1065VN</a></h3>
+								<h4 class="product-price">10.990.000đ <del class="product-old-price">13.990.000đ</del></h4>
+							</div>
+						</div>
+						<!-- /product widget -->
+						<!-- product widget -->
+						<div class="product-widget">
+							<div class="product-img">
+								<img src="~/CustomerContent/img/product02.png" alt="">
+							</div>
+							<div class="product-body">
+								<p class="product-category">Category</p>
+								<h3 class="product-name"><a href="#">Tai nghe gaming Rapoo VH160 có mic</a></h3>
+								<h4 class="product-price">390.000 ₫ <del class="product-old-price">490.000 ₫</del></h4>
+							</div>
+						</div>
+						<!-- /product widget -->
+						<!-- product widget -->
+						<div class="product-widget">
+							<div class="product-img">
+								<img src="~/CustomerContent/img/new-pictures/laptop20.jpg" alt="">
+							</div>
+							<div class="product-body">
+								<p class="product-category">Category</p>
+								<h3 class="product-name"><a href="#">Laptop Lenovo Thinkpad X1 Carbon Gen 9 i7</a></h3>
+								<h4 class="product-price">26.950.000 đ <del class="product-old-price">28.950.000 đ</del></h4>
+							</div>
+						</div>
+						<!-- product widget -->
+					</div>
+
+					<div>
+						<!-- product widget -->
+						<div class="product-widget">
+							<div class="product-img">
+								<img src="~/CustomerContent/img/product04.png" alt="">
+							</div>
+							<div class="product-body">
+								<p class="product-category">Category</p>
+								<h3 class="product-name"><a href="#">Samsung Galaxy Tab S8 WIFI</a></h3>
+								<h4 class="product-price">15.590.000 ₫ <del class="product-old-price">17.990.000 ₫</del></h4>
+							</div>
+						</div>
+						<!-- /product widget -->
+						<!-- product widget -->
+						<div class="product-widget">
+							<div class="product-img">
+								<img src="~/CustomerContent/img/product05.png" alt="">
+							</div>
+							<div class="product-body">
+								<p class="product-category">Category</p>
+								<h3 class="product-name"><a href="#">Tai nghe gaming Sony MDR - ZX110AP có mic</a></h3>
+								<h4 class="product-price">486.000 ₫ <del class="product-old-price">540.000 ₫</del></h4>
+							</div>
+						</div>
+						<!-- /product widget -->
+						<!-- product widget -->
+						<div class="product-widget">
+							<div class="product-img">
+								<img src="~/CustomerContent/img/new-pictures/laptop22.jpg" alt="">
+							</div>
+							<div class="product-body">
+								<p class="product-category">Category</p>
+								<h3 class="product-name"><a href="#">Laptop HP Pavilion 15-EG2037TX 6K783PA</a></h3>
+								<h4 class="product-price">14.990.000 đ <del class="product-old-price">14.990.000 đ</del></h4>
+							</div>
+						</div>
+						<!-- product widget -->
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- /row -->
+	</div>
+	<!-- /container -->
+</div>
+<!-- /SECTION -->
+<!-- NEWSLETTER -->
+<div id="newsletter" class="section">
+	<!-- container -->
+	<div class="container">
+		<!-- row -->
+		<div class="row">
+			<div class="col-md-12">
+				<div class="newsletter">
+					<p>Đăng ký nhận <strong>BẢN TIN</strong></p>
+					<form>
+						<input class="input" type="email" placeholder="Nhập Email của bạn">
+						<button class="newsletter-btn"><i class="fa fa-envelope"></i> Đặt mua</button>
+					</form>
+					<ul class="newsletter-follow">
+						<li>
+							<a href="#"><i class="fa fa-facebook"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-instagram"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-pinterest"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- /row -->
+	</div>
+	<!-- /container -->
+</div>
+<!-- /NEWSLETTER -->

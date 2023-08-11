@@ -1,0 +1,68 @@
+﻿
+<header>
+	<!-- TOP HEADER -->
+	<div id="top-header">
+		<div class="container">
+			<ul class="header-links pull-right">
+				
+				@if (!string.IsNullOrEmpty(User.Identity.Name))
+				{
+					<li><a href="/Identity/UserAuthentication/ChangePassword">Đổi mật khẩu</a></li>
+					<li><a href="/Identity/UserAuthentication/Logout">Đăng xuất</a></li>
+				}
+				else
+				{
+					<li><a asp-area="Identity" asp-action="Login" asp-controller="UserAuthentication">Đăng nhập</a></li>
+					<li><a asp-area="Identity" asp-action="Registration" asp-controller="UserAuthentication">Đăng ký</a></li>
+				}
+			</ul>
+		</div>
+	</div>
+	<!-- /TOP HEADER -->
+	<!-- MAIN HEADER -->
+	<div id="header">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- LOGO -->
+				<div class="col-md-3">
+					<div class="header-logo">
+						<a class="logo" asp-area="Customer" asp-action="Index" asp-controller="Home">
+							<img src="~/CustomerContent/img/logo.png" alt="">
+						</a>
+					</div>
+				</div>
+				<!-- /LOGO -->
+				<!-- SEARCH BAR -->
+				<div class="col-md-6">
+					<div class="header-search">
+						<form>
+							<input class="input" placeholder="Tìm kiếm">
+							<button class="search-btn">Tìm kiếm</button>
+						</form>
+					</div>
+				</div>
+				<!-- /SEARCH BAR -->
+				
+				<!-- ACCOUNT -->
+				<div class="col-md-3 clearfix">
+					<div class="header-ctn">
+						<!-- Cart -->
+						<div>
+							<a  asp-action="Index" asp-controller="Cart">
+								<i class="fa fa-shopping-cart"></i>
+								<span>Giỏ hàng</span>
+							</a>
+						</div>
+						<!-- /Cart -->
+					</div>
+				</div>
+				<!-- /ACCOUNT -->
+			</div>
+			<!-- row -->
+		</div>
+		<!-- container -->
+	</div>
+	<!-- /MAIN HEADER -->
+</header>
