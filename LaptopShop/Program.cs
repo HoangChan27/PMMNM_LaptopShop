@@ -11,7 +11,7 @@ builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 builder.Services.AddDbContext<LaptopDbContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("SqlServer_Hoang"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("SqlServer_Duong"));
 });
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<LaptopDbContext>()
@@ -45,7 +45,7 @@ app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllerRoute(
       name: "areas",
-      pattern: "{area=Admin}/{controller=Home}/{action=Index}/{id?}"
+      pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}"
     );
 });
 
