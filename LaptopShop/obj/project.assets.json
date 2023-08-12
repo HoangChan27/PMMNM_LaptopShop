@@ -11605,23 +11605,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\huyho\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\LaptopShop.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\Desktop\\PMMNM_LaptopShop\\LaptopShop\\LaptopShop.csproj",
       "projectName": "LaptopShop",
-      "projectPath": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\LaptopShop.csproj",
-      "packagesPath": "C:\\Users\\huyho\\.nuget\\packages\\",
-      "outputPath": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\obj\\",
+      "projectPath": "C:\\Users\\admin\\Desktop\\PMMNM_LaptopShop\\LaptopShop\\LaptopShop.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\admin\\Desktop\\PMMNM_LaptopShop\\LaptopShop\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\huyho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11629,6 +11630,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11697,7 +11699,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

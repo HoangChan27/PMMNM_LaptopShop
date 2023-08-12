@@ -1,4 +1,6 @@
 ﻿using LaptopShop.Data;
+using LaptopShop.Extension;
+using LaptopShop.Models.EF;
 using LaptopShop.Models.ViewModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -34,6 +36,49 @@ namespace LaptopShop.Areas.Customer.Controllers
 			ViewBag.list = listDto;
 			return View();
 		}
-        
-	}
+
+        public ActionResult Detail(int? id)
+        {
+
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var product = _context.Products.Include(c => c.Category).FirstOrDefault(c => c.ProductId == id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+            return View(product);
+        }
+
+
+        //POST product detail acation method
+        [HttpPost]
+        [ActionName("Detail")]
+        public ActionResult ProductDetail(int? id)
+        {
+            List<Product> products = new List<Product>();
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var product = _context.Products.Include(c => c.Category).FirstOrDefault(c => c.ProductId == id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+
+            products = HttpContext.Session.GetJson<List<Product>>("products");
+            if (products == null)
+            {
+                products = new List<Product>();
+            }
+            products.Add(product);
+            HttpContext.Session.SetJson("products", products);
+            return RedirectToAction(nameof(Index));
+        }
+    }
 }
