@@ -1,0 +1,71 @@
+﻿@using LaptopShop.Models.ViewModels;
+@model CheckoutViewModel
+
+<div class="container">
+    <div class="row">
+        <h3 style="align-content:center">Đặt hàng thành công</h3>
+
+    </div>
+    <div class="row">
+        <table class="table">
+            <tr>
+                <th>Họ và tên :</th>
+                <td>@Model.Payment.FullName</td>
+            </tr>
+            <tr>
+                <th>Địa chỉ:</th>
+                <td>@Model.Payment.Address</td>
+            </tr>
+            <tr>
+                <th>Email:</th>
+                <td>@Model.Payment.Email</td>
+            </tr>
+            <tr>
+                <th>Số điện thoại</th>
+                <td>@Model.Payment.Phone</td>
+            </tr>
+        </table>
+    </div>
+    <div class="row">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Cart.CartItems)
+                {
+                    <tr>
+                        <td>
+                            <img src="@Url.Content(item.Image)" width="150" height="150" />
+                        </td>
+                        <td><a href="/Customer/Product/Detail/@item.ProductId">@item.ProductName</a></td>
+                        <td>
+                            <div class="border-1">
+                                @item.Quantity
+                            </div>
+                        </td>
+
+                        <td>@item.Price.ToString("0,0")đ</td>
+                        <th>@Model.Cart.CartItems.Where(x => x.ProductId == item.ProductId).Sum(x => x.Quantity * x.Price).ToString("0,0")đ</th>
+
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="row">
+        <div class="col-5 text-right">
+            <h3>Total Amount</h3>
+            <h3>Grant Total : @Model.Cart.GrandTotal.ToString("0,0")đ </h3>
+
+        </div>
+    </div>
+</div>
