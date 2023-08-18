@@ -219,7 +219,7 @@ namespace LaptopShop.Models
                 x = x * i % 7;
                 product.Graphics = Graphics[x];
                 // Weight
-                product.Weight = (x / 10.0) + 1.5; 
+                product.Weight = (x / 10.0) + 1.5;
                 // Color
                 x = random.Next(10);
                 x = x * i % 6;
@@ -239,7 +239,7 @@ namespace LaptopShop.Models
                 // Quantity
                 product.Quantity = x + 10;
                 // Warranty
-                product.Warranty = (byte)(x + 12); 
+                product.Warranty = (byte)(x + 12);
                 // Category Id
                 x = random.Next(10);
                 x = x * i % categories.Count();

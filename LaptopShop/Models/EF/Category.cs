@@ -1,10 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace LaptopShop.Models.EF
 {
-	public class Category
-	{
+    public class Category
+    {
         [Key]
         public int CategoryId { get; set; }
         [Required]

@@ -1,10 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LaptopShop.Models.EF
 {
-	public class Order
-	{
+    public class Order
+    {
         [Key]
         public int OrderId { get; set; }
         public DateTime? OrderDate { get; set; }

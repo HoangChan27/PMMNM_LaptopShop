@@ -1,10 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LaptopShop.Models.EF
 {
-	public class OrderDetail
-	{
+    public class OrderDetail
+    {
         [Key]
         public int OrderDetailId { get; set; }
         public int? Quantity { get; set; } // số lượng sản phẩm trong đơn hàng

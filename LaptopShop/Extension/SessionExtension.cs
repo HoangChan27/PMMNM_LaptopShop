@@ -2,8 +2,8 @@
 
 namespace LaptopShop.Extension
 {
-	public static class SessionExtension
-	{
+    public static class SessionExtension
+    {
         public static void SetJson(this ISession session, string key, object value)
         {
             session.SetString(key, JsonConvert.SerializeObject(value));

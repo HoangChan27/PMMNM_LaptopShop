@@ -1,10 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace LaptopShop.Models.EF
 {
-	public class Product
-	{
+    public class Product
+    {
         [Key]
         public int ProductId { get; set; }
         public string? Name { get; set; }

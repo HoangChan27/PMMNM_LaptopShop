@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using LaptopShop.Data;
+﻿using LaptopShop.Data;
 using LaptopShop.Models.EF;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace LaptopShop.Areas.Admin.Controllers
 {
@@ -23,9 +18,9 @@ namespace LaptopShop.Areas.Admin.Controllers
         // GET: Admin/Category
         public async Task<IActionResult> Index()
         {
-              return _context.Categories != null ? 
-                          View(await _context.Categories.ToListAsync()) :
-                          Problem("Entity set 'LaptopDbContext.Categories'  is null.");
+            return _context.Categories != null ?
+                        View(await _context.Categories.ToListAsync()) :
+                        Problem("Entity set 'LaptopDbContext.Categories'  is null.");
         }
 
         // GET: Admin/Category/Create
@@ -67,7 +62,7 @@ namespace LaptopShop.Areas.Admin.Controllers
         // POST: Admin/Category/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id,Category category)
+        public async Task<IActionResult> Edit(int id, Category category)
         {
             if (id != category.CategoryId)
             {
@@ -144,7 +139,7 @@ namespace LaptopShop.Areas.Admin.Controllers
 
         private bool CategoryExists(int id)
         {
-          return (_context.Categories?.Any(e => e.CategoryId == id)).GetValueOrDefault();
+            return (_context.Categories?.Any(e => e.CategoryId == id)).GetValueOrDefault();
         }
     }
 }

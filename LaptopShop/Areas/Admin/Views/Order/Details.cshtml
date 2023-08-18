@@ -1,0 +1,67 @@
+﻿@model LaptopShop.Models.EF.Order
+
+@{
+    ViewData["Title"] = "Chi tiết đơn hàng";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<!-- breadcrumb start -->
+<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Trang chủ</a></li>
+        <li class="breadcrumb-item"><a asp-controller="Order" asp-action="Index">Quản lý đơn hàng</a></li>
+        <li class="breadcrumb-item active" aria-current="page">@ViewData["Title"]</li>
+    </ol>
+</nav>
+<!-- breadcrumb end-->
+
+<h4>@ViewData["Title"]</h4>
+<hr />
+
+<div>
+    <dl class="row">
+        <dt class = "col-sm-2">
+            Họ tên
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FullName)
+        </dd>
+        <dt class = "col-sm-2">
+            Email
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class = "col-sm-2">
+            Số điện thoại
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Phone)
+        </dd>
+        <dt class = "col-sm-2">
+            Địa chỉ
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+        <dt class="col-sm-2">
+            Ngày đặt
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.OrderDate)
+        </dd>
+        <dt class="col-sm-2">
+            Tổng tiền
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.GrandTotal)
+        </dd>
+    </dl>
+</div>
+
+<div>
+    <div class="btn-group" role="group">
+        <a class="btn btn-primary" asp-action="Edit">Sửa</a>
+        <a class="btn btn-secondary" asp-action="Index">Về danh sách</a>
+    </div>
+</div>

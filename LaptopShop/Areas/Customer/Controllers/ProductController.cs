@@ -2,10 +2,8 @@
 using LaptopShop.Extension;
 using LaptopShop.Models.EF;
 using LaptopShop.Models.ViewModels;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
 
 namespace LaptopShop.Areas.Customer.Controllers
 {
@@ -22,20 +20,20 @@ namespace LaptopShop.Areas.Customer.Controllers
         public async Task<IActionResult> Index()
         {
             List<ProductDto> listDto = _context.Products.Include(x => x.Category).Select(x => new ProductDto
-			{
-				ProductId = x.ProductId,
-				Name = x.Name,
-				CategoryName = x.Category.CategoryName,
-				Price = x.Price,
-				Image = x.Image
-			}).ToList();
-			if(listDto == null)
-			{
-				return BadRequest();
-			}
-			ViewBag.list = listDto;
-			return View();
-		}
+            {
+                ProductId = x.ProductId,
+                Name = x.Name,
+                CategoryName = x.Category.CategoryName,
+                Price = x.Price,
+                Image = x.Image
+            }).ToList();
+            if (listDto == null)
+            {
+                return BadRequest();
+            }
+            ViewBag.list = listDto;
+            return View();
+        }
 
         public ActionResult Detail(int? id)
         {

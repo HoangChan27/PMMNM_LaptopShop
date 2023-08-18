@@ -1,10 +1,9 @@
-﻿using LaptopShop.Models.EF;
+﻿using LaptopShop.Data;
 using LaptopShop.Models;
-using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
-using LaptopShop.Data;
-using Microsoft.EntityFrameworkCore;
 using LaptopShop.Models.ViewModels;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Diagnostics;
 
 namespace LaptopShop.Areas.Customer.Controllers
 {
@@ -23,7 +22,7 @@ namespace LaptopShop.Areas.Customer.Controllers
 
 
         public IActionResult Index()
-         {
+        {
             var listProduct = _context.Products.Include(x => x.Category).Select(x => new ProductDto
             {
                 ProductId = x.ProductId,
@@ -32,11 +31,11 @@ namespace LaptopShop.Areas.Customer.Controllers
                 Price = x.Price,
                 Image = x.Image
             }).ToList();
-             return View(listProduct);
-         }
-        
+            return View(listProduct);
+        }
 
-       
+
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
