@@ -3,38 +3,7 @@
 @model CheckoutViewModel
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-	<link rel="icon" href="./img/new-pictures/logo-tab.jpg" type="image/x-icon">
-	<title>Checkout</title>
-
-	<!-- Google font -->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
-
-	<!-- Bootstrap -->
-	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
-
-	<!-- Slick -->
-	<link type="text/css" rel="stylesheet" href="css/slick.css" />
-	<link type="text/css" rel="stylesheet" href="css/slick-theme.css" />
-
-	<!-- nouislider -->
-	<link type="text/css" rel="stylesheet" href="css/nouislider.min.css" />
-
-	<!-- Font Awesome Icon -->
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-
-	<!-- Custom stlylesheet -->
-	<link type="text/css" rel="stylesheet" href="css/style.css" />
-
-</head>
-<body>
+<div>
 	<!-- BREADCRUMB -->
 	<div id="breadcrumb" class="section">
 		<!-- container -->
@@ -42,10 +11,10 @@
 			<!-- row -->
 			<div class="row">
 				<div class="col-md-12">
-					<h3 class="breadcrumb-header">Thanh toán</h3>
+					<h3 class="breadcrumb-header">ĐẶT HÀNG</h3>
 					<ul class="breadcrumb-tree">
 						<li><a asp-controller="Home" asp-action="Index">Trang chủ</a></li>
-						<li class="active">Thanh toán</li>
+						<li class="active">Đặt hàng</li>
 					</ul>
 				</div>
 			</div>
@@ -63,15 +32,15 @@
 
 				<div class="col-md-7">
 					<!-- Billing Details -->
-					<form class="billing-details form-validate" asp-action="Order" method="post" >
+					<form class="billing-details form-validate" asp-action="Order" method="post">
 						<div class="section-title">
-							<h3 class="title">Địa chỉ thanh toán</h3>
+							<h3 class="title">THÔNG TIN KHÁCH HÀNG</h3>
 						</div>
 						<div class="form-group">
 							<input class="input" type="text" name="fullname" asp-for="@Model.Payment.FullName" placeholder="Họ và tên">
-							<span class="text-danger" asp-validation-for="@Model.Payment.FullName"></span>		
+							<span class="text-danger" asp-validation-for="@Model.Payment.FullName"></span>
 						</div>
-						
+
 						<div class="form-group">
 							<input class="input" type="email" name="email" asp-for="@Model.Payment.Email" placeholder="Email">
 							<span class="text-danger" asp-validation-for="@Model.Payment.Email"></span>
@@ -84,7 +53,7 @@
 							<input class="input" type="text" name="phone" asp-for="@Model.Payment.Phone" placeholder="Điện thoại">
 							<span class="text-danger" asp-validation-for="@Model.Payment.Phone"></span>
 						</div>
-						
+
 						<button type="submit" class="primary-btn order-submit">Đặt hàng</button>
 					</form>
 					<!-- /Billing Details -->
@@ -101,7 +70,7 @@
 							<div><strong>TỔNG CỘNG</strong></div>
 						</div>
 						<div class="order-products">
-							@foreach(var item in Model.Cart.CartItems)
+							@foreach (var item in Model.Cart.CartItems)
 							{
 								<div class="order-col">
 									<div>@item.Quantity x @item.ProductName</div>
@@ -118,7 +87,7 @@
 							<div><strong class="order-total">@Model.Cart.GrandTotal.ToString("0,0")đ</strong></div>
 						</div>
 					</div>
-					
+
 				</div>
 				<!-- /Order Details -->
 			</div>
@@ -162,146 +131,4 @@
 		<!-- /container -->
 	</div>
 	<!-- /NEWSLETTER -->
-	<!-- FOOTER -->
-	<footer id="footer">
-		<!-- top footer -->
-		<div class="section">
-			<!-- container -->
-			<div class="container">
-				<!-- row -->
-				<div class="row">
-					<div class="col-md-3 col-xs-6">
-						<div class="footer">
-							<h3 class="footer-title">Về chúng tôi</h3>
-							<ul class="footer-links">
-								<li><a href="#"><i class="fa fa-map-marker"></i>173 Nguyên Đình</a></li>
-								<li><a href="#"><i class="fa fa-phone"></i>+021-95-51-84</a></li>
-								<li><a href="#"><i class="fa fa-envelope-o"></i>123abc@email.com</a></li>
-							</ul>
-						</div>
-					</div>
-
-					<div class="col-md-3 col-xs-6">
-						<div class="footer">
-							<h3 class="footer-title">Thể loại</h3>
-							<ul class="footer-links">
-								<li><a href="#">Ưu đãi lớn</a></li>
-								<li><a href="#">Laptops</a></li>
-								<li><a href="#">Cameras</a></li>
-								<li><a href="#">Phụ kiện</a></li>
-							</ul>
-						</div>
-					</div>
-
-					<div class="clearfix visible-xs"></div>
-
-					<div class="col-md-3 col-xs-6">
-						<div class="footer">
-							<h3 class="footer-title">Thông tin</h3>
-							<ul class="footer-links">
-								<li><a href="#">Về chúng tôi</a></li>
-								<li><a href="#">Liên hệ chúng tôi</a></li>
-								<li><a href="#">Chính sách bảo mật</a></li>
-								<li><a href="#">Chính sách đổi trả</a></li>
-								<li><a href="#">Điều khoản và điều kiện</a></li>
-							</ul>
-						</div>
-					</div>
-
-					<div class="col-md-3 col-xs-6">
-						<div class="footer">
-							<h3 class="footer-title">Dịch vụ</h3>
-							<ul class="footer-links">
-								<li><a href="#">Tài khoản</a></li>
-								<li><a href="#">Giỏ hàng</a></li>
-								<li><a href="#">Danh sách yêu thích</a></li>
-								<li><a href="#">Đơn hàng của tôi</a></li>
-								<li><a href="#">Hỗ trợ</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<!-- /row -->
-			</div>
-			<!-- /container -->
-		</div>
-		<!-- /top footer -->
-		<!-- bottom footer -->
-		<div id="bottom-footer" class="section">
-			<div class="container">
-				<!-- row -->
-				<div class="row">
-					<div class="col-md-12 text-center">
-						<ul class="footer-payments">
-							<li><a href="#"><i class="fa fa-cc-visa"></i></a></li>
-							<li><a href="#"><i class="fa fa-credit-card"></i></a></li>
-							<li><a href="#"><i class="fa fa-cc-paypal"></i></a></li>
-							<li><a href="#"><i class="fa fa-cc-mastercard"></i></a></li>
-							<li><a href="#"><i class="fa fa-cc-discover"></i></a></li>
-							<li><a href="#"><i class="fa fa-cc-amex"></i></a></li>
-						</ul>
-					</div>
-				</div>
-				<!-- /row -->
-			</div>
-			<!-- /container -->
-		</div>
-		<!-- /bottom footer -->
-	</footer>
-	<!-- /FOOTER -->
-	<!-- jQuery Plugins -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/slick.min.js"></script>
-	<script src="js/nouislider.min.js"></script>
-	<script src="js/jquery.zoom.min.js"></script>
-	<script src="js/main.js"></script>
-
-@*
-	<script src="https://www.paypalobjects.com/api/checkout.js"></script>
-
-		<script>
-
-			let _total = @Html.Raw(Model.Payment.GrandTotal);
-
-			paypal.Button.render({
-				//Configure environment
-				env: 'sandbox',
-				client: {
-					sandbox: 'AcKRtgL4i68EZ2ZYuYUx3ilihAg2YhL5dtF_m19A8MjBWVOn6ewNS4M_uV8gA3xi98zTcUq38gUHbVFx'
-				},
-
-				//Customize button
-				locale: 'en_US',
-				style: {
-					size: 'small',
-					color: 'gold',
-					shape: 'pill'
-				},
-				commit: true,
-
-				//Set up a payment
-				payment: function (data, actions) {
-					return actions.payment.create({
-						transactions: [{
-							amount: {
-								total: _total,
-								currency: 'USD'
-							}
-						}]
-					});
-				},
-
-				//Execute the payment
-				onAuthorize: function (data, actions) {
-					return actions.payment.execute().then(function () {
-						var url = '@Url.Action("Order", "Orders", new { })';
-						window.location.href = url;
-					});
-				}
-
-			}, '#paypal-btn')
-		</script>*@
-	
-</body>
-</html>
+</div>

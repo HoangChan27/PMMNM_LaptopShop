@@ -85,42 +85,37 @@
 							<div class="products-slick" data-nav="#slick-nav-1">
 								@foreach(var item in Model)
 								{
-									
-								<!-- product -->
-								<div class="product">
-									<div class="product-img">
-											@*<img src="~/CustomerContent/img/new-pictures/laptop1.jpg" alt="">*@
+									<!-- product -->
+									<div class="product">
+										<div class="product-img">
 											<img src="@Url.Content(item.Image)" alt="" class="card-img-top" >
-										<div class="product-label">
-											<span class="sale">-30%</span>
-											<span class="new">NEW</span>
+											<div class="product-label">
+												<span class="sale">-30%</span>
+												<span class="new">NEW</span>
+											</div>
+										</div>
+										<div class="product-body">
+											<p class="product-category">@item.CategoryName</p>
+											<h3 class="product-name"><a href="/Customer/Product/Detail/@item.ProductId">@item.Name</a></h3>
+												<h4 class="product-price">@item.Price.ToString("0,0")đ<del class="product-old-price">20.600.000 đ</del></h4>
+											<div class="product-rating">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<div class="product-btns">
+											</div>
+										</div>
+										<div class="add-to-cart">
+												<button class="add-to-cart-btn">
+													<i class="fa fa-shopping-cart"></i>
+												<a class="btn" asp-controller="Cart" asp-action="Add" asp-route-id="@item.ProductId">+ Giỏ hàng</a>
+											 </button>
 										</div>
 									</div>
-									<div class="product-body">
-										<p class="product-category">@item.CategoryName</p>
-										<h3 class="product-name"><a href="/Customer/Product/Detail/@item.ProductId">@item.Name</a></h3>
-											<h4 class="product-price">@item.Price.ToString("0,0")đ<del class="product-old-price">20.600.000 đ</del></h4>
-										<div class="product-rating">
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-										</div>
-										<div class="product-btns">
-											
-											
-											
-										</div>
-									</div>
-									<div class="add-to-cart">
-											<button class="add-to-cart-btn">
-												<i class="fa fa-shopping-cart"></i>
-											<a class="btn" asp-controller="Cart" asp-action="Add" asp-route-id="@item.ProductId">+ Giỏ hàng</a>
-										 </button>
-									</div>
-								</div>
-								<!-- /product -->
+									<!-- /product -->
 								}
 
 								<!-- product -->

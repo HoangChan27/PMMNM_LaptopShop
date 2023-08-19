@@ -26,8 +26,13 @@ namespace LaptopShop.Areas.Customer.Controllers
                 CartItems = cart,
                 GrandTotal = cart.Sum(x => x.Quantity * x.Price)
             };
+			if (!string.IsNullOrEmpty(User.Identity.Name))
+			{
 
-            return View(cartVM);
+				return View(cartVM);
+
+			}
+			return RedirectToAction("Login", "UserAuthentication", new { area = "Identity" });
         }
 
         public async Task<IActionResult> Add(int id)
@@ -49,7 +54,7 @@ namespace LaptopShop.Areas.Customer.Controllers
 
             HttpContext.Session.SetJson("Cart", cart);
 
-            TempData["Success"] = "The product has been added!";
+            TempData["Success"] = "Đã thêm!";
 
             return Redirect(Request.Headers["Referer"].ToString());
         }
@@ -78,7 +83,7 @@ namespace LaptopShop.Areas.Customer.Controllers
                 HttpContext.Session.SetJson("Cart", cart);
             }
 
-            TempData["Success"] = "The product has been removed!";
+            TempData["Success"] = "Đã giảm!";
 
             return RedirectToAction("Index");
         }
@@ -98,7 +103,7 @@ namespace LaptopShop.Areas.Customer.Controllers
                 HttpContext.Session.SetJson("Cart", cart);
             }
 
-            TempData["Success"] = "The product has been removed!";
+            TempData["Success"] = "Đã xóa!";
 
             return RedirectToAction("Index");
         }

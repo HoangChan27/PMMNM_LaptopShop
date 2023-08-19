@@ -25,7 +25,7 @@
 							<li><a class="dropdown-item" asp-controller="Home" asp-action="Account">Tài khoản</a></li>
 							<li><a class="dropdown-item" asp-controller="Home" asp-action="Settings">Cài đặt</a></li>
 							<li><hr class="dropdown-divider"></li>
-							<li><a class="dropdown-item" href="#">Đăng xuất</a></li>
+							<li><a class="dropdown-item" asp-area="Identity" asp-controller="UserAuthentication" asp-action="Login" >Đăng xuất</a></li>
 						</ul>
 					</div><!--//app-user-dropdown-->
 				</div><!--//app-utilities-->
