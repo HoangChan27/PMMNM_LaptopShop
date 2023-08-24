@@ -3,255 +3,78 @@
 @model LaptopShop.Models.EF.Product
 
 @{
-    Layout = "_CustomerLayout";
     List<ProductDto> list = ViewBag.list;
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Detail</title>
-</head>
-<body>
-
-@*<div>
-    <h4>Product</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Name)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Name)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Brand)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Brand)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.OperatingSystem)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.OperatingSystem)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Monitor)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Monitor)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CPU)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CPU)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.RAM)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.RAM)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Storage)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Storage)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Graphics)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Graphics)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Weight)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Weight)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Color)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Color)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Battery)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Battery)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Warranty)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Warranty)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Description)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Description)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Image)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Image)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Price)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Price)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Quantity)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Quantity)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Category)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Category.CategoryName)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.ProductId">Edit</a> |
-    <a href="/Customer/Home">Back to List</a>
-</div>*@
 
 <div class="section">
     <!--container-->
     <div class="container">
         <div class="row">
             <!--Product main img-->
-                <div class="col-md-5 col-md-push-2">
-                    <div id="product-main-img">
-                        <div class="product-preview">
-                            <img src="@Url.Content(Model.Image)" alt="">
-                        </div>
-
-                        <div class="product-preview">
-                            <img src="@Url.Content(Model.Image)" alt="">
-                        </div>
-
-                        <div class="product-preview">
-                            <img src="@Url.Content(Model.Image)" alt="">
-                        </div>
-                        <div class="product-preview">
-                            <img src="@Url.Content(Model.Image)" alt="">
-                        </div>
-                        
+            <div class="col-md-5 col-md-push-2">
+                <div id="product-main-img">
+                    <div class="product-preview">
+                        <img src="@Url.Content(Model.Image)" alt="">
+                    </div>  
+                    <div class="product-preview">
+                        <img src="@Url.Content(Model.Image)" alt="">
+                    </div>
+                    <div class="product-preview">
+                        <img src="@Url.Content(Model.Image)" alt="">
+                    </div>
+                    <div class="product-preview">
+                        <img src="@Url.Content(Model.Image)" alt="">
                     </div>
                 </div>
-            <!-- /Product main img -->
-                <!-- Product thumb imgs -->
-                <div class="col-md-2  col-md-pull-5">
-                    <div id="product-imgs">
-                        <div class="product-preview">
-                            <img src="@Url.Content(Model.Image)" alt="">
-                        </div>
-
-                        <div class="product-preview">
-                            <img src="@Url.Content(Model.Image)" alt="">
-                        </div>
-
-                        <div class="product-preview">
-                            <img src="@Url.Content(Model.Image)" alt="">
-                        </div>
-                        <div class="product-preview">
-                            <img src="@Url.Content(Model.Image)" alt="">
-                        </div>
-                       
-                    </div>
-                </div>
-                <!-- /Product thumb imgs -->
-                <!-- Product details -->
-                <div class="col-md-5">
-                    <div class="product-details">
-                        <h2 class="product-name">@Html.DisplayFor(model => model.Name)</h2>
-                        <div>
-                            <div class="product-rating">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star-o"></i>
-                            </div>
-                            <a class="review-link" href="#">10 Review(s) | Thêm đánh giá</a>
-                        </div>
-                        <div>
-                            <h3 class="product-price">@Model.Price.ToString("0,0")đ<del class="product-old-price">46.600.000 đ</del></h3>
-                            <span class="product-available">In Stock</span>
-                        </div>
-                        <p>Màn hình : @Html.DisplayFor(model=>model.Monitor)</p>
-                        <p>CPU :@Html.DisplayFor(model=>model.CPU)</p>
-                        <p>Tản Nhiệt Khí : HP 800 G1 Tiêu Chuẩn</p>
-                        <p>RAM :@Html.DisplayFor(model=>model.RAM)</p>
-                        <p>Ổ cứng :@Html.DisplayFor(model=>model.Storage)</p>
-                        <p>Đồ họa : @Html.DisplayFor(model=>model.Graphics)</p>
-                        <div class="product-options">
-                           
-                            <label>
-                                Màu sắc
-                                <select class="input-select">
-                                    <option value="0">@Html.DisplayFor(model=>model.Color)</option>
-                                </select>
-                            </label>
-                        </div>
-
-                        <div class="add-to-cart">
-                            @*<div class="qty-label">
-                                Số lượng
-                                <div class="input-number">
-                                    <input type="number">
-                                    <span class="qty-up">+</span>
-                                    <span class="qty-down">-</span>
-                                </div>
-                            </div>*@
-                            <a class="btn btn-primary" asp-controller="Cart" asp-action="Add" asp-route-id="@Model.ProductId">Thêm vào giỏ hàng</a>
-
-                        </div>
-
-                        <ul class="product-btns">
-                            <li><a href="#"><i class="fa fa-heart-o"></i> Thêm vào danh sách yêu thích</a></li>
-                            <li><a href="#"><i class="fa fa-exchange"></i> Thêm vào để so sánh</a></li>
-                        </ul>
-
-                        <ul class="product-links">
-                            <li>Loại:</li>
-                            <li><a href="#">TAI NGHE</a></li>
-                            <li><a href="#">PHỤ KIỆN</a></li>
-                        </ul>
-
-                        <ul class="product-links">
-                            <li>Chia sẻ:</li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
-                        </ul>
-
-                    </div>
-                </div>
-                <!-- /Product details -->
-                
-
-
-
             </div>
+            <!-- /Product main img -->
+            <!-- Product thumb imgs -->
+            <div class="col-md-2  col-md-pull-5">
+                <div id="product-imgs">
+                    <div class="product-preview">
+                        <img src="@Url.Content(Model.Image)" alt="">
+                    </div>
+                    <div class="product-preview">
+                        <img src="@Url.Content(Model.Image)" alt="">
+                    </div>
+                    <div class="product-preview">
+                        <img src="@Url.Content(Model.Image)" alt="">
+                    </div>
+                    <div class="product-preview">
+                        <img src="@Url.Content(Model.Image)" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- /Product thumb imgs -->
+            <!-- Product details -->
+            <div class="col-md-5">
+                <div class="product-details">
+                    <h2 class="product-name">@Html.DisplayFor(model => model.Name)</h2>
+                    <div>
+                        <h3 class="product-price">@Model.Price.ToString("0,0")đ<del class="product-old-price"> 46.600.000đ</del></h3>
+                    </div>
+                    <p>Màn hình: @Html.DisplayFor(model=>model.Monitor)</p>
+                    <p>CPU: @Html.DisplayFor(model=>model.CPU)</p>
+                    <p>RAM: @Html.DisplayFor(model=>model.RAM)</p>
+                    <p>Ổ cứng: @Html.DisplayFor(model=>model.Storage)</p>
+                    <p>Đồ họa: @Html.DisplayFor(model=>model.Graphics)</p>
+                    <div class="product-options">
+                        <label>
+                            Màu sắc
+                            <select class="input-select" style="width: auto">
+                                <option value="0">@Html.DisplayFor(model=>model.Color)</option>
+                            </select>
+                        </label>
+                    </div>
+
+                    <div class="add-to-cart">
+                        <a class="btn btn-primary" asp-controller="Cart" asp-action="Add" asp-route-id="@Model.ProductId">Thêm vào giỏ hàng</a>
+                    </div>
+                </div>
+            </div>
+            <!-- /Product details -->
+        </div>
     </div>
 </div>
 
-
-</body>
-</html>

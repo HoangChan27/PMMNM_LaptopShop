@@ -10,6 +10,8 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LaptopShop
 build_property.RootNamespace = LaptopShop
 build_property.ProjectDir = D:\HaUI\Semester7\PhanMemMaNguonMo\PMMNM_LaptopShop\LaptopShop\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
@@ -32,28 +34,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HaUI/Semester7/PhanMemMaNguonMo/PMMNM_LaptopShop/LaptopShop/Areas/Admin/Views/Home/Account.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxBY2NvdW50LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/HaUI/Semester7/PhanMemMaNguonMo/PMMNM_LaptopShop/LaptopShop/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HaUI/Semester7/PhanMemMaNguonMo/PMMNM_LaptopShop/LaptopShop/Areas/Admin/Views/Home/Settings.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxTZXR0aW5ncy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/HaUI/Semester7/PhanMemMaNguonMo/PMMNM_LaptopShop/LaptopShop/Areas/Admin/Views/Order/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/HaUI/Semester7/PhanMemMaNguonMo/PMMNM_LaptopShop/LaptopShop/Areas/Admin/Views/Order/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/HaUI/Semester7/PhanMemMaNguonMo/PMMNM_LaptopShop/LaptopShop/Areas/Admin/Views/Order/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/HaUI/Semester7/PhanMemMaNguonMo/PMMNM_LaptopShop/LaptopShop/Areas/Admin/Views/Order/Index.cshtml]

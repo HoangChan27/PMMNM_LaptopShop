@@ -11,31 +11,20 @@
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Trang chủ</a></li>
             <li class="breadcrumb-item"><a asp-controller="Order" asp-action="Index">Quản lý đơn hàng</a></li>
-            <li class="breadcrumb-item active" aria-current="page">@ViewData["Title"]</li>
         </ol>
     </nav>
     <!-- breadcrumb end-->
 
     <h3 class="text-center">@ViewData["Title"]</h3>
 
-    <table class="table">
+    <table class="table table-responsive table-bordered">
         <thead>
             <tr>
-                <th>
-                    Họ tên
-                </th>
-                <th>
-                    SĐT
-                </th>
-                <th>
-                    Địa chỉ
-                </th>
-                <th>
-                    Ngày đặt
-                </th>
-                <th>
-                    Tổng tiền
-                </th>
+                <th>Họ tên</th>
+                <th>SĐT</th>
+                <th>Địa chỉ</th>
+                <th>Ngày đặt</th>
+                <th>Tổng tiền</th>
                 <th></th>
             </tr>
         </thead>
@@ -43,26 +32,12 @@
             @foreach (var item in Model)
             {
                 <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.FullName)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Phone)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Address)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.OrderDate)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.GrandTotal)
-                    </td>
-                    <td>
-                        @* <a asp-action="Edit" asp-route-id="@item.OrderId">Sửa</a> | *@
-                        <a asp-action="Details" asp-route-id="@item.OrderId">Chi tiết</a>
-                        @* <a asp-action="Delete" asp-route-id="@item.OrderId">Xóa</a> *@
-                    </td>
+                    <td>@Html.DisplayFor(modelItem => item.FullName)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Phone)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Address)</td>
+                    <td>@Html.DisplayFor(modelItem => item.OrderDate)</td>
+                    <td>@Html.DisplayFor(modelItem => item.GrandTotal)</td>
+                    <td><a asp-action="Details" asp-route-id="@item.OrderId">Chi tiết</a></td>
                 </tr>
             }
         </tbody>

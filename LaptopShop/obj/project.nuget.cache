@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TTx54+MQp4e/NRf4fA1YAB43rB2VFebNfOSTcM6qJs4NcC+zeogiO+3lJiYGQsT5qahy2n4TjGWxHCITgQxRhw==",
+  "dgSpecHash": "r9kqL7ybSG58ti8B8zwu8Pi419kVEqRPPU+B4yHZ6GkVhmQAEQl/4OodhFVJH6zaGAZrK0tlLVKrYDqCTLZ6dQ==",
   "success": true,
   "projectFilePath": "D:\\HaUI\\Semester7\\PhanMemMaNguonMo\\PMMNM_LaptopShop\\LaptopShop\\LaptopShop.csproj",
   "expectedPackageFiles": [
@@ -246,7 +246,11 @@
     "C:\\Users\\huyho\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\huyho\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\huyho\\.nuget\\packages\\x.pagedlist\\8.4.7\\x.pagedlist.8.4.7.nupkg.sha512",
-    "C:\\Users\\huyho\\.nuget\\packages\\x.pagedlist.mvc.core\\8.4.7\\x.pagedlist.mvc.core.8.4.7.nupkg.sha512"
+    "C:\\Users\\huyho\\.nuget\\packages\\x.pagedlist.mvc.core\\8.4.7\\x.pagedlist.mvc.core.8.4.7.nupkg.sha512",
+    "C:\\Users\\huyho\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\huyho\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\huyho\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.20\\microsoft.aspnetcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\huyho\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.20\\microsoft.netcore.app.host.win-x64.6.0.20.nupkg.sha512"
   ],
   "logs": []
 }

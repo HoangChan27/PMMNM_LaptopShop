@@ -1,0 +1,7 @@
+KHI CLONE VỀ, VUI LÒNG LÀM THEO CÁC BƯỚC SAU ĐÂY: 
+- Mở chương trình với Visual Studio IDE
+- Đổi 'Data Source' trong file appsettings.json thành 'Server name' (SQL Server) của máy bạn.
+Ví dụ: Data Source=HUY_HOANG\\SQLEXPRESS đổi thành  Data Source=ServerNameCuaMayBan
+- Tại cửa sổ Visual Studio IDE, Vào tab View ->Chọn Other Windows -> Chọn Package Manager Consoles -> Gõ: 'update-database'
+- Bây giờ bạn có thể chạy chương trình  được rồi!
+CHÚC BẠN THÀNH CÔNG!
